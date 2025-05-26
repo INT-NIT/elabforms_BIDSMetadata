@@ -2,66 +2,66 @@
     "elabftw": {
         "extra_fields_groups": [
             {
-                "id": 7,
-                "name": "Run06"
+                "id": 4,
+                "name": "Run03"
             }
         ]
     },
     "extra_fields": {
-        "RunNumber06": {
+        "RunNumber03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 0
         },
-        "TaskName06": {
+        "TaskName03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 1,
             "required": true,
             "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
         },
-        "TaskDescription06": {
+        "TaskDescription03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 2,
             "description": "Description of the task"
         },
-        "Acquisition06": {
+        "Acquisition03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 3,
             "description": "Details about the acquisition process."
         },
-        "StartTime06": {
+        "StartTime03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 4
         },
-        "EventsSet06": {
+        "EventsSet03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 5,
             "description": "Details about the events associated with this set."
         },
-        "DataFilePath06": {
+        "DataFilePath03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 6,
             "description": "The path where the protocol's file is saved"
         },
-        "RunComment06": {
+        "RunComment03": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 7,
-            "description": "Comment about the subject behavior during the run."
+            "description": "behavior of the subject, technical notes, interruptions etc."
         }
     }
 }

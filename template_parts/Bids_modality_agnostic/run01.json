@@ -3,66 +3,68 @@
     "display_main_text": true,
     "extra_fields_groups": [
       {
-        "id": 3,
-        "name": "Run02"
+        "id": 2,
+        "name": "Run01 "
       }
     ]
   },
   "extra_fields": {
-    "RunNumber02": {
+
+    "RunNumber01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 0
     },
-    "TaskName02": {
+    "TaskName01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 1,
       "required": true,
       "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
     },
-    "TaskDescription02": {
+    "TaskDescription01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 2,
       "description": "Description of the task"
     },
-    "Acquisition02": {
+    "Acquisition01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 3,
-      "description": "Details about the acquisition process."
+      "description": "Type of acquisition of the PET data (for example, \"list mode\").."
     },
-    "StartTime02": {
+    "StartTime01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 4
     },
-    "EventsSet02": {
+    "EventsSet01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 5,
       "description": "Details about the events associated with this set."
     },
-    "DataFilePath02": {
+    "DataFilePath01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 6,
-      "description": "The path where the protocol's file is saved"
+      "description": "the path where the Protocole 's file is saved"
     },
-    "RunComment02": {
+    "RunComment01": {
       "type": "text",
       "value": "",
-      "group_id": 3,
+      "group_id": 2,
       "position": 7,
-      "description": "Comment about the subject behavior during the run."
+      "description": "behavior of the subject, technical notes, interruptions etc."
     }
+
   }
 }

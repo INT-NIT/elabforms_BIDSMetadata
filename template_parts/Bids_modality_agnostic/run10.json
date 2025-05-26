@@ -61,7 +61,7 @@
             "value": "",
             "group_id": 11,
             "position": 7,
-            "description": "Comment about the subject behavior during the run."
+            "description": "behavior of the subject, technical notes, interruptions etc."
         }
     }
 }
