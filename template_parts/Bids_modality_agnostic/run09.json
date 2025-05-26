@@ -1,0 +1,67 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 10,
+                "name": "Run09"
+            }
+        ]
+    },
+    "extra_fields": {
+        "RunNumber09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 0
+        },
+        "TaskName09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 1,
+            "required": true,
+            "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
+        },
+        "TaskDescription09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 2,
+            "description": "Description of the task"
+        },
+        "Acquisition09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 3,
+            "description": "Details about the acquisition process."
+        },
+        "StartTime09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 4
+        },
+        "EventsSet09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 5,
+            "description": "Details about the events associated with this set."
+        },
+        "DataFilePath09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 6,
+            "description": "The path where the protocol's file is saved"
+        },
+        "RunComment09": {
+            "type": "text",
+            "value": "",
+            "group_id": 10,
+            "position": 7,
+            "description": "behavior of the subject, technical notes, interruptions etc."
+        }
+    }
+}
