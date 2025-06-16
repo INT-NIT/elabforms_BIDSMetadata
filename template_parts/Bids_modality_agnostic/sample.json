@@ -20,7 +20,7 @@
       "value": "",
       "group_id": 3,
       "position": 1,
-      "description": "A sample identifier of the form sample-<label>, matching a sample entity found in the dataset. The combination of sample_id and participant_id MUST be unique."
+      "description": "The identifier of the sample from which the data is acquired, e.g., 'slice02', or 'cell4'. The combination of sample_id and participant_id MUST be unique."
     },
     "sample_type": {
       "type": "select",
@@ -45,14 +45,8 @@
       "value": "",
       "group_id": 3,
       "position": 5,
-      "description": "sample-<label> entity from which a sample is derived, e.g., sample-02 from sample-01."
-    },
-    "participant_id": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 2,
-      "description": "A participant identifier of the form sub-<label>, matching a participant entity found in the dataset. The combination of sample_id and participant_id MUST be unique."
+      "description": "sample-<label> entity from which a sample is derived, e.g., sample-cell02 is derived from sample-slice01."
     }
+
   }
 }
