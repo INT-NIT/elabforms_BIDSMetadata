@@ -1,0 +1,58 @@
+{
+  "elabftw": {
+    "extra_fields_groups": [
+      {
+        "id": 3,
+        "name": "SAMPLE_BIDS_FORM"
+      }
+    ]
+  },
+  "extra_fields": {
+    "pathology": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 4,
+      "description": "Describes the pathology of the sample or type of control. If different from healthy, this SHOULD be specified."
+    },
+    "sample_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 1,
+      "description": "A sample identifier of the form sample-<label>, matching a sample entity found in the dataset. The combination of sample_id and participant_id MUST be unique."
+    },
+    "sample_type": {
+      "type": "select",
+      "value": "",
+      "options": [
+        "cell line",
+        "in vitro differentiated cells",
+        "primary cell",
+        "cell-free sample",
+        "cloning host",
+        "tissue",
+        "whole organisms",
+        "organoid",
+        "technical sample"
+      ],
+      "group_id": 3,
+      "position": 3,
+      "description": "Biosample type defined by ENCODE Biosample Type."
+    },
+    "derived_from": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 5,
+      "description": "sample-<label> entity from which a sample is derived, e.g., sample-02 from sample-01."
+    },
+    "participant_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 2,
+      "description": "A participant identifier of the form sub-<label>, matching a participant entity found in the dataset. The combination of sample_id and participant_id MUST be unique."
+    }
+  }
+}
