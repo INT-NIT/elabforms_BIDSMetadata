@@ -1,0 +1,69 @@
+{
+  "elabftw": {
+    "extra_fields_groups": [
+      {
+        "id": "",
+        "name": "GENERIC_BIDS_PARTICIPANT"
+      }
+    ]
+  },
+  "extra_fields": {
+    "participant_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 0,
+      "description": "Participant's ID (subject number or animal name etc.). It will define the BIDS directory name: sub-participant_id."
+    },
+    "participant_guid": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 1,
+      "description": "The Globally Unique IDentifier (GUID) of the participant, if it exists"
+    },
+    "age": {
+      "type": "number",
+      "unit": "",
+      "units": [
+        "years",
+        "months"
+      ],
+      "value": "",
+      "group_id": 2,
+      "position": 2,
+      "description": "Age in years or months, e.g., '42' or '0.4'"
+    },
+    "sex": {
+      "type": "radio",
+      "options": [
+        "female",
+        "male",
+        "other"
+      ],
+      "group_id": 2,
+      "position": 3,
+      "description": "Participant's sex"
+    },
+    "group": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 4,
+      "description": "Experimental group (ex: \"control\", or \"patient\", or \"with training\" etc.)"
+    },
+    "handedness": {
+      "type": "radio",
+      "value": "left",
+      "options": [
+        "left",
+        "right",
+        "ambidextrous",
+        "unknown"
+      ],
+      "group_id": 2,
+      "position": 5,
+      "description": "Participant's handedness  e.g., 'left', 'right', or 'ambidextrous'"
+    }
+  }
+}
