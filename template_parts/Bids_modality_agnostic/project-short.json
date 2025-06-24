@@ -31,27 +31,6 @@
             "position": 2,
             "description": "The official ethical protocol id.",
 	    "blank_value_on_duplicate": false
-        },
-        "DatasetDOI": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 2,
-            "description": "The Digital Object Identifier of the dataset (not the corresponding paper)."
-        },
-        "DatasetLinks": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 5,
-            "description": "Used to map a given <dataset-name> from a BIDS URI of the form bids:"
-        },
-        "GeneratedBy": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 4,
-            "description": "Used to specify provenance of the dataset."
         }
     }
 }

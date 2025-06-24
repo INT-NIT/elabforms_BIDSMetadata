@@ -1,0 +1,69 @@
+{
+  "elabftw": {
+    "extra_fields_groups": [
+      {
+        "id": 1,
+        "name": "GENERIC_BIDS_PARTICIPANT"
+      }
+    ]
+  },
+  "extra_fields": {
+    "participant_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 0,
+      "description": "Participant's ID (subject number or animal name etc.). It will define the BIDS directory name: sub-participant_id.",
+      "blank_value_on_duplicate": false
+    },
+    "participant_guid": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 1,
+      "description": "The Globally Unique IDentifier (GUID) of the participant, if it exists",
+      "blank_value_on_duplicate": false
+    },
+    "species": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 2,
+      "description": "Species (from the NCBI Taxonomy), e.g., 'Macaca mulatta', 'Rattus norvegicusmus')",
+      "blank_value_on_duplicate": false
+    },
+    "age": {
+      "type": "number",
+      "unit": "",
+      "units": [
+        "years",
+        "months"
+      ],
+      "value": "",
+      "group_id": 1,
+      "position": 3,
+      "description": "Age in years or months, e.g., '42' or '0.4'",
+      "blank_value_on_duplicate": false
+    },
+    "sex": {
+      "type": "radio",
+      "options": [
+        "female",
+        "male",
+        "other"
+      ],
+      "group_id": 1,
+      "position": 4,
+      "description": "Participant's sex",
+      "blank_value_on_duplicate": false
+    },
+    "strain": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 5,
+      "description": "The strain of the subject",
+      "blank_value_on_duplicate": false
+    }
+  }
+}
