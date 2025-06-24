@@ -2,7 +2,7 @@
   "elabftw": {
     "extra_fields_groups": [
       {
-        "id": "",
+        "id": 2,
         "name": "GENERIC_BIDS_PARTICIPANT"
       }
     ]

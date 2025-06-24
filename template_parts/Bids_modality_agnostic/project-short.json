@@ -13,7 +13,7 @@
             "value": "",
             "group_id": 1,
             "position": 0,
-            "description": "Project name (should be identical to the project tag)."
+            "description": "Project name (should be identical to the project tag).",
 	    "blank_value_on_duplicate": false
         },
         "Experimenters": {
@@ -21,15 +21,15 @@
             "value": "",
             "group_id": 1,
             "position": 1,
-            "description": "List of individuals who present during the recordings."
+            "description": "List of individuals present during the recordings.",
 	    "blank_value_on_duplicate": false
         },
         "Ethical Protocol Identifier": {
             "type": "text",
-            "value": "defaut format in '5X-16X-vX'",
+            "value": "",
             "group_id": 1,
             "position": 2,
-            "description": "The official ethical protocol id."
+            "description": "The official ethical protocol id.",
 	    "blank_value_on_duplicate": false
         }
     }
