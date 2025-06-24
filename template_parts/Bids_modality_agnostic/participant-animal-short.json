@@ -3,7 +3,7 @@
     "extra_fields_groups": [
       {
         "id": 1,
-        "name": "GENERIC_BIDS_PARTICIPANT"
+        "name": "GENERAL_SUBJECT"
       }
     ]
   },
@@ -13,7 +13,7 @@
       "value": "",
       "group_id": 1,
       "position": 0,
-      "description": "Participant's ID (subject number or animal name etc.). It will define the BIDS directory name: sub-participant_id.",
+      "description": "Participant's ID (subject number, animal name etc.). It will define the BIDS directory name: sub-participant_id.",
       "blank_value_on_duplicate": false
     },
     "participant_guid": {

@@ -3,7 +3,7 @@
         "extra_fields_groups": [
             {
                 "id": 1,
-                "name": "Microscopy "
+                "name": "MODALITY_MICROSCOPY"
             }
         ]
     },
