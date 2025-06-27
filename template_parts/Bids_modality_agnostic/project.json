@@ -3,7 +3,7 @@
         "extra_fields_groups": [
             {
                 "id": 1,
-                "name": "GENERIC_BIDS_PROJECT"
+                "name": "GENERAL_PROJECT"
             }
         ]
     },

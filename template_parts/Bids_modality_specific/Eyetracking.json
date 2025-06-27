@@ -4,7 +4,7 @@
     "extra_fields_groups": [
       {
         "id": 1,
-        "name": "EyeTracking_BIDS_METADATA"
+        "name": "MODALITY_EYETRACKING"
       }
     ]
   },

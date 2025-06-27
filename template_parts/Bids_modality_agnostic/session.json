@@ -3,7 +3,7 @@
         "extra_fields_groups": [
             {
                 "id": 3,
-                "name": "GENERIC_BIDS_SESSION"
+                "name": "GENERAL_SESSION"
             }
         ]
     },
