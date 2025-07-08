@@ -8,79 +8,66 @@
         ]
     },
     "extra_fields": {
-        "BodyPart": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 34,
-            "description": "Body part of the organ / region scanned (e.g. BRAIN).",
-            "blank_value_on_duplicate": false
-        },
+	"PixelSize": {
+	    "type": "text",
+	    "unit": "",
+	    "units": [
+		"mm",
+		"um",
+		"nm"
+	    ],
+	    "value": "",
+	    "group_id": 1,
+	    "position": 1,
+	    "description": "2- or 3-number array of the physical size of a pixel [X,Y,(Z)]. Unit to be specified on the right!",
+	    "blank_value_on_duplicate": false
+	},
         "Immersion": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 29,
+            "position": 2,
             "description": "Lens immersion medium.",
-            "blank_value_on_duplicate": false
-        },
-        "PixelSize": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 27,
-            "description": "2- or 3-number array of the physical size of a pixel [X,Y,(Z)].",
-            "blank_value_on_duplicate": false
-        },
-        "Magnification": {
-            "type": "number",
-            "value": "",
-            "group_id": 1,
-            "position": 31,
-            "description": "Lens magnification (e.g. 40).",
-            "blank_value_on_duplicate": false
-        },
-        "PixelSizeUnits": {
-            "type": "select",
-            "value": "mm",
-            "options": [
-                "mm",
-                "um",
-                "nm"
-            ],
-            "group_id": 1,
-            "description": "Unit format of the specified PixelSize."
-        },
-        "SampleFixation": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 39,
-            "description": "Description of the tissue sample fixation.",
-            "blank_value_on_duplicate": false
-        },
-        "BodyPartDetails": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 35,
-            "description": "Additional details about body part or location.",
-            "blank_value_on_duplicate": false
-        },
-        "SampleEmbedding": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 38,
-            "description": "Description of the tissue sample embedding.",
             "blank_value_on_duplicate": false
         },
         "NumericalAperture": {
             "type": "number",
             "value": "",
             "group_id": 1,
-            "position": 30,
+            "position": 3,
             "description": "Lens numerical aperture (e.g. 1.4).",
+            "blank_value_on_duplicate": false
+        },
+        "Magnification": {
+            "type": "number",
+            "value": "",
+            "group_id": 1,
+            "position": 4,
+            "description": "Lens magnification (e.g. 40).",
+            "blank_value_on_duplicate": false
+        },
+        "ImageAcquisitionProtocol": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 5,
+            "description": "Description or URI of the image acquisition protocol.",
+            "blank_value_on_duplicate": false
+        },
+        "BodyPart": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 6,
+            "description": "Body part of the organ / region scanned (e.g. BRAIN).",
+            "blank_value_on_duplicate": false
+        },
+        "BodyPartDetails": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 7,
+            "description": "Additional details about body part or location.",
             "blank_value_on_duplicate": false
         },
         "SampleEnvironment": {
@@ -92,48 +79,48 @@
                 "in vitro"
             ],
             "group_id": 1,
-            "position": 37,
+            "position": 8,
             "description": "Environment in which the sample was imaged.",
             "blank_value_on_duplicate": false
         },
-        "BodyPartDetailsOntology": {
+        "SampleEmbedding": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 36,
-            "description": "Ontology URI for BodyPartDetails.",
+            "position": 9,
+            "description": "Description of the tissue sample embedding.",
             "blank_value_on_duplicate": false
         },
-        "ImageAcquisitionProtocol": {
+        "SampleFixation": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 32,
-            "description": "Description or URI of the image acquisition protocol.",
+            "position": 10,
+            "description": "Description of the tissue sample fixation.",
             "blank_value_on_duplicate": false
         },
-        "ChunkTransformationMatrix": {
+        "SampleStaining": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 29,
-            "description": "3x3 or 4x4 affine transformation matrix describing spatial chunk transformation, for 2D and 3D respectively (e.g. [[2, 0, 0], [0, 3, 0], [0, 0, 1]] for 2D or [[1, 0, 0, 0], [0, 2, 0, 0], [0, 0, 3, 0], [0, 0, 0, 1]] for 3D). Non-spatial dimensions like time and channel are not included.",
+            "position": 11,
+            "description": "Tissue sample staining(s). (within brackets if more than one)",
             "blank_value_on_duplicate": false
         },
-        "OtherAcquisitionParameters": {
+        "SamplePrimaryAntibody": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 33,
-            "description": "Other relevant image acquisition parameters.",
+            "position": 12,
+            "description": "Primary antibody used for immunostaining.",
             "blank_value_on_duplicate": false
         },
-        "ChunkTransformationMatrixAxis": {
+        "SampleSecondaryAntibody": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 30,
-            "description": "List of axis names corresponding to ChunkTransformationMatrix (e.g. [\"X\", \"Y\"] or [\"Z\", \"Y\", \"X\"]). REQUIRED if ChunkTransformationMatrix is present.",
+            "position": 13,
+            "description": "Secondary antibody used for immunostaining.",
             "blank_value_on_duplicate": false
         }
     }
