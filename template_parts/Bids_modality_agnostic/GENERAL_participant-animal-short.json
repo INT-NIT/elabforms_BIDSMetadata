@@ -3,7 +3,7 @@
     "extra_fields_groups": [
       {
         "id": 1,
-        "name": "GENERAL_subject"
+        "name": "GENERAL_participant-animal"
       }
     ]
   },
