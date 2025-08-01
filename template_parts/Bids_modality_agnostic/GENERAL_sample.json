@@ -1,0 +1,52 @@
+{
+  "elabftw": {
+    "extra_fields_groups": [
+      {
+        "id": 3,
+        "name": "GENERAL_sample"
+      }
+    ]
+  },
+  "extra_fields": {
+    "pathology": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 4,
+      "description": "Describes the pathology of the sample or type of control. If different from healthy, this SHOULD be specified."
+    },
+    "sample_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 1,
+      "description": "The identifier of the sample from which the data is acquired, e.g., 'slice02', or 'cell4'. The combination of sample_id and participant_id MUST be unique."
+    },
+    "sample_type": {
+      "type": "select",
+      "value": "",
+      "options": [
+        "cell line",
+        "in vitro differentiated cells",
+        "primary cell",
+        "cell-free sample",
+        "cloning host",
+        "tissue",
+        "whole organisms",
+        "organoid",
+        "technical sample"
+      ],
+      "group_id": 3,
+      "position": 3,
+      "description": "Biosample type defined by ENCODE Biosample Type."
+    },
+    "derived_from": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 5,
+      "description": "sample-<label> entity from which a sample is derived, e.g., sample-cell02 is derived from sample-slice01."
+    }
+
+  }
+}
