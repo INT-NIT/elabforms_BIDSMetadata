@@ -3,12 +3,12 @@
     "extra_fields_groups": [
       {
         "id": 1,
-        "name": "MODALITY_confocal_microscopy_image_chunk03"
+        "name": "MODALITY_confocal_microscopy_image_chunk02"
       }
     ]
   },
   "extra_fields": {
-    "chunk03_id": {
+    "chunk02_id": {
       "type": "text",
       "value": "",
       "group_id": 1,
@@ -16,7 +16,7 @@
 	"description": "When several images/chunks are acquired on the same sample, the identifier of this image.",
       "blank_value_on_duplicate": true
     },
-    "chunk03_Immersion": {
+    "chunk02_Immersion": {
       "type": "text",
       "value": "",
       "group_id": 1,
@@ -24,7 +24,7 @@
       "description": "Lens immersion medium.",
       "blank_value_on_duplicate": false
     },
-    "chunk03_PixelSize": {
+    "chunk02_PixelSize": {
       "type": "text",
       "unit": "",
       "units": [
@@ -38,7 +38,7 @@
       "description": "2- or 3-number array of the physical size of a pixel [X,Y,(Z)]. Unit to be specified on the right!",
       "blank_value_on_duplicate": true
     },
-    "chunk03_Magnification": {
+    "chunk02_Magnification": {
       "type": "number",
       "value": "",
       "group_id": 1,
@@ -46,7 +46,7 @@
       "description": "Lens magnification (e.g. 40).",
       "blank_value_on_duplicate": true
     },
-    "chunk03_ImageAcquisitionProtocol": {
+    "chunk02_ImageAcquisitionProtocol": {
       "type": "text",
       "value": "",
       "group_id": 1,
@@ -54,7 +54,7 @@
       "description": "Description or URI of the image acquisition protocol.",
       "blank_value_on_duplicate": true
     },
-    "chunk03_datafile_path": {
+    "chunk02_datafile_path": {
       "type": "text",
       "value": "",
       "description": "Location of the corresponding data file(s)",
