@@ -7,19 +7,11 @@
             }
         ]
     },
-        "NumericalAperture": {
-            "type": "number",
-            "value": "",
-            "group_id": 1,
-            "position": 1,
-            "description": "Lens numerical aperture (e.g. 1.4).",
-            "blank_value_on_duplicate": false
-        },
         "BodyPart": {
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 2,
+            "position": 1,
             "description": "Body part of the organ / region scanned (e.g. BRAIN).",
             "blank_value_on_duplicate": false
         },
@@ -27,7 +19,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 3,
+            "position": 2,
             "description": "Additional details about body part or location.",
             "blank_value_on_duplicate": false
         },
@@ -40,7 +32,7 @@
                 "in vitro"
             ],
             "group_id": 1,
-            "position": 4,
+            "position": 3,
             "description": "Environment in which the sample was imaged.",
             "blank_value_on_duplicate": false
         },
@@ -48,7 +40,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 5,
+            "position": 4,
             "description": "Description of the tissue sample embedding.",
             "blank_value_on_duplicate": false
         },
@@ -56,7 +48,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 6,
+            "position": 5,
             "description": "Description of the tissue sample fixation.",
             "blank_value_on_duplicate": false
         },
@@ -64,7 +56,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 7,
+            "position": 6,
             "description": "Tissue sample staining(s). (within brackets if more than one)",
             "blank_value_on_duplicate": false
         },
@@ -72,7 +64,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 8,
+            "position": 7,
             "description": "Primary antibody used for immunostaining.",
             "blank_value_on_duplicate": false
         },
@@ -80,7 +72,7 @@
             "type": "text",
             "value": "",
             "group_id": 1,
-            "position": 9,
+            "position": 8,
             "description": "Secondary antibody used for immunostaining.",
             "blank_value_on_duplicate": false
         }

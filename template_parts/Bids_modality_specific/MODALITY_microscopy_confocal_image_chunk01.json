@@ -24,6 +24,14 @@
       "description": "Lens immersion medium.",
       "blank_value_on_duplicate": false
     },
+    "chunk01_NumericalAperture": {
+      "type": "number",
+      "value": "",
+      "group_id": 1,
+      "position": 3,
+      "description": "Lens numerical aperture (e.g. 1.4).",
+      "blank_value_on_duplicate": false
+    },
     "chunk01_PixelSize": {
       "type": "text",
       "unit": "",
@@ -34,7 +42,7 @@
       ],
       "value": "",
       "group_id": 1,
-      "position": 3,
+      "position": 4,
       "description": "2- or 3-number array of the physical size of a pixel [X,Y,(Z)]. Unit to be specified on the right!",
       "blank_value_on_duplicate": true
     },
@@ -42,7 +50,7 @@
       "type": "number",
       "value": "",
       "group_id": 1,
-      "position": 4,
+      "position": 5,
       "description": "Lens magnification (e.g. 40).",
       "blank_value_on_duplicate": true
     },
@@ -50,7 +58,7 @@
       "type": "text",
       "value": "",
       "group_id": 1,
-      "position": 5,
+      "position": 6,
       "description": "Description or URI of the image acquisition protocol.",
       "blank_value_on_duplicate": true
     },
@@ -59,7 +67,7 @@
       "value": "",
       "description": "Location of the corresponding data file(s)",
       "group_id": 1,
-      "position": 6,
+      "position": 7,
       "blank_value_on_duplicate": true
     }
   }
