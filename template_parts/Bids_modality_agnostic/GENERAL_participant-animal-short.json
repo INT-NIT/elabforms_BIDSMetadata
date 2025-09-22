@@ -65,7 +65,7 @@
       "position": 5,
       "description": "The strain of the subject",
       "blank_value_on_duplicate": false
-    }
+    },
     "genotype": {
       "type": "text",
       "value": "",
