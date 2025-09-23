@@ -47,6 +47,5 @@
       "position": 5,
       "description": "sample-<label> entity from which a sample is derived, e.g., sample-cell02 is derived from sample-slice01."
     }
-
   }
 }

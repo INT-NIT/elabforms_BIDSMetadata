@@ -37,7 +37,8 @@
       "unit": "",
       "units": [
         "years",
-        "months"
+        "months",
+	"days"
       ],
       "value": "",
       "group_id": 1,
@@ -63,6 +64,14 @@
       "group_id": 1,
       "position": 5,
       "description": "The strain of the subject",
+      "blank_value_on_duplicate": false
+    },
+    "genotype": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 6,
+      "description": "Genotype of the animal",
       "blank_value_on_duplicate": false
     }
   }

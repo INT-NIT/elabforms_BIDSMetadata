@@ -1,0 +1,81 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 1,
+                "name": "MODALITY_microscopy_confocal_common"
+            }
+        ]
+    },
+    "extra_fields": {
+        "BodyPart": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 1,
+            "description": "Body part of the organ / region scanned (e.g. BRAIN).",
+            "blank_value_on_duplicate": false
+        },
+        "BodyPartDetails": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 2,
+            "description": "Additional details about body part or location.",
+            "blank_value_on_duplicate": false
+        },
+        "SampleEnvironment": {
+            "type": "select",
+            "value": "",
+            "options": [
+                "in vivo",
+                "ex vivo",
+                "in vitro"
+            ],
+            "group_id": 1,
+            "position": 3,
+            "description": "Environment in which the sample was imaged.",
+            "blank_value_on_duplicate": false
+        },
+        "SampleEmbedding": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 4,
+            "description": "Description of the tissue sample embedding.",
+            "blank_value_on_duplicate": false
+        },
+        "SampleFixation": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 5,
+            "description": "Description of the tissue sample fixation.",
+            "blank_value_on_duplicate": false
+        },
+        "SampleStaining": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 6,
+            "description": "Tissue sample staining(s). (within brackets if more than one)",
+            "blank_value_on_duplicate": false
+        },
+        "SamplePrimaryAntibody": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 7,
+            "description": "Primary antibody used for immunostaining.",
+            "blank_value_on_duplicate": false
+        },
+        "SampleSecondaryAntibody": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 8,
+            "description": "Secondary antibody used for immunostaining.",
+            "blank_value_on_duplicate": false
+        }
+    }
+}
