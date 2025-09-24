@@ -38,12 +38,12 @@
       "units": [
         "years",
         "months",
-	"days"
+	    "days"
       ],
       "value": "",
       "group_id": 1,
       "position": 3,
-      "description": "Age in years or months, e.g., '42' or '0.4'",
+      "description": "Age in years, months or days, e.g., '42' or '0.4'",
       "blank_value_on_duplicate": false
     },
     "sex": {
