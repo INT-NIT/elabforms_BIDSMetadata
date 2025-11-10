@@ -14,7 +14,7 @@
             "group_id": 3,
             "position": 0,
             "required": true,
-            "description": "Ex: '01 or predrug or 20231206'"
+            "description": "The recording session ID, for file names. ONLY numbers, letters and +. Ex: '20251110', '01' or 'predrug+2'"
         },
         "Session duration": {
             "type": "number",

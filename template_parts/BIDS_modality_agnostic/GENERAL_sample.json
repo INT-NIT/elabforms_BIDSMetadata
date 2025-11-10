@@ -20,7 +20,7 @@
       "value": "",
       "group_id": 3,
       "position": 1,
-      "description": "The identifier of the sample from which the data is acquired, e.g., 'slice02', or 'cell4'. The combination of sample_id and participant_id MUST be unique."
+      "description": "The sample ID (slice, cell etc.) from which the data is acquired, for naming files. ONLY numbers, letters and +. Ex: 'slice01', 'cell+03'"
     },
     "sample_type": {
       "type": "select",
