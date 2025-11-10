@@ -3,68 +3,67 @@
     "display_main_text": true,
     "extra_fields_groups": [
       {
-        "id": 2,
-        "name": "GENERAL_RUN-01"
+        "id": 3,
+        "name": "GENERAL_RUN02"
       }
     ]
   },
   "extra_fields": {
-
-    "RunNumber01": {
+    "RunNumber02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
-      "position": 0
+      "group_id": 3,
+      "position": 0,
+      "description": "Run number. An integer, possibly prefixed with 0s. Ex: '003' or '01'"
     },
-    "TaskName01": {
+    "TaskName02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 1,
       "required": true,
-      "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
+      "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
     },
-    "TaskDescription01": {
+    "TaskDescription02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 2,
       "description": "Description of the task"
     },
-    "Acquisition01": {
+    "Acquisition02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 3,
-      "description": "Type of acquisition of the PET data (for example, \"list mode\").."
+      "description": "Details about the acquisition process."
     },
-    "StartTime01": {
+    "StartTime02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 4
     },
-    "EventsSet01": {
+    "EventsSet02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 5,
       "description": "Details about the events associated with this set."
     },
-    "DataFilePath01": {
+    "DataFilePath02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 6,
-      "description": "the path where the Protocole 's file is saved"
+      "description": "The path where the protocol's file is saved"
     },
-    "RunComment01": {
+    "RunComment02": {
       "type": "text",
       "value": "",
-      "group_id": 2,
+      "group_id": 3,
       "position": 7,
       "description": "behavior of the subject, technical notes, interruptions etc."
     }
-
   }
 }

@@ -3,7 +3,7 @@
         "extra_fields_groups": [
             {
                 "id": 10,
-                "name": "GENERAL_RUN-09"
+                "name": "GENERAL_RUN09"
             }
         ]
     },
@@ -12,7 +12,8 @@
             "type": "text",
             "value": "",
             "group_id": 10,
-            "position": 0
+            "position": 0,
+            "description": "Run number. An integer, possibly prefixed with 0s. Ex: '003' or '01'"
         },
         "TaskName09": {
             "type": "text",
@@ -20,7 +21,7 @@
             "group_id": 10,
             "position": 1,
             "required": true,
-            "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
+            "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
         },
         "TaskDescription09": {
             "type": "text",
