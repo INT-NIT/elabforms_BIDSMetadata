@@ -3,7 +3,7 @@
     "extra_fields_groups": [
       {
         "id": 1,
-        "name": "GENERAL_participant-animal"
+        "name": "GENERAL_subject"
       }
     ]
   },
@@ -13,7 +13,7 @@
       "value": "",
       "group_id": 1,
       "position": 0,
-      "description": "Participant's ID (subject number, animal name etc.). It will define the BIDS directory name: sub-participant_id.",
+      "description": "The participant ID (subject number, animal name etc.), for file and directory names. ONLY numbers, letters and +. Ex: 'toto', '01', 'titi+02'",
       "blank_value_on_duplicate": false
     },
     "participant_guid": {
@@ -21,7 +21,7 @@
       "value": "",
       "group_id": 1,
       "position": 1,
-      "description": "The Globally Unique IDentifier (GUID) of the participant, if it exists",
+      "description": "The Globally Unique IDentifier (GUID) of the participant, if available",
       "blank_value_on_duplicate": false
     },
     "species": {
@@ -37,13 +37,12 @@
       "unit": "",
       "units": [
         "years",
-        "months",
-	    "days"
+        "months"
       ],
       "value": "",
       "group_id": 1,
       "position": 3,
-      "description": "Age in years, months or days, e.g., '42' or '0.4'",
+      "description": "Age in years or months, e.g., '42' or '0.4'",
       "blank_value_on_duplicate": false
     },
     "sex": {
@@ -64,14 +63,6 @@
       "group_id": 1,
       "position": 5,
       "description": "The strain of the subject",
-      "blank_value_on_duplicate": false
-    },
-    "genotype": {
-      "type": "text",
-      "value": "",
-      "group_id": 1,
-      "position": 6,
-      "description": "Genotype of the animal",
       "blank_value_on_duplicate": false
     }
   }

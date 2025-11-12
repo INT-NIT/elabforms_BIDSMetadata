@@ -13,14 +13,14 @@
       "value": "",
       "group_id": 3,
       "position": 4,
-      "description": "Describes the pathology of the sample or type of control. If different from healthy, this SHOULD be specified."
+      "description": "Describes the pathology of the sample or the type of control. Necessary if different from healthy."
     },
     "sample_id": {
       "type": "text",
       "value": "",
       "group_id": 3,
       "position": 1,
-      "description": "The identifier of the sample from which the data is acquired, e.g., 'slice02', or 'cell4'. The combination of sample_id and participant_id MUST be unique."
+      "description": "The sample ID (slice, cell etc.) from which the data is acquired, for naming files. ONLY numbers, letters and +. Ex: 'slice01', 'cell+03'"
     },
     "sample_type": {
       "type": "select",
@@ -38,14 +38,14 @@
       ],
       "group_id": 3,
       "position": 3,
-      "description": "Biosample type defined by ENCODE Biosample Type."
+      "description": "Biosample type (as defined by ENCODE Biosample Type)."
     },
     "derived_from": {
       "type": "text",
       "value": "",
       "group_id": 3,
       "position": 5,
-      "description": "sample-<label> entity from which a sample is derived, e.g., sample-cell02 is derived from sample-slice01."
+      "description": "The sample ID from which the present sample is derived from. Ex: if you record a cell that comes from a slice labeled 'slice01', indicate 'slice01' here!"
     }
   }
 }

@@ -2,64 +2,65 @@
     "elabftw": {
         "extra_fields_groups": [
             {
-                "id": 7,
-                "name": "GENERAL_RUN-06"
+                "id": 4,
+                "name": "GENERAL_RUN01"
             }
         ]
     },
     "extra_fields": {
-        "RunNumber06": {
+        "RunNumber01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
-            "position": 0
+            "group_id": 4,
+            "position": 0,
+            "description": "Run number. A positive integer, possibly prefixed with zeros. Ex: '003' or '01'"
         },
-        "TaskName06": {
+        "TaskName01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 1,
             "required": true,
-            "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
+            "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
         },
-        "TaskDescription06": {
+        "TaskDescription01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 2,
             "description": "Description of the task"
         },
-        "Acquisition06": {
+        "Acquisition01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 3,
             "description": "Details about the acquisition process."
         },
-        "StartTime06": {
+        "StartTime01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 4
         },
-        "EventsSet06": {
+        "EventsSet01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 5,
             "description": "Details about the events associated with this set."
         },
-        "DataFilePath06": {
+        "DataFilePath01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 6,
             "description": "The path where the protocol's file is saved"
         },
-        "RunComment06": {
+        "RunComment01": {
             "type": "text",
             "value": "",
-            "group_id": 7,
+            "group_id": 4,
             "position": 7,
             "description": "behavior of the subject, technical notes, interruptions etc."
         }

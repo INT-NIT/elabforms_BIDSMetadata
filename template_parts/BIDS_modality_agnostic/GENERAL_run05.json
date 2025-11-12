@@ -1,0 +1,68 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 6,
+                "name": "GENERAL_RUN05"
+            }
+        ]
+    },
+    "extra_fields": {
+        "RunNumber05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 0,
+            "description": "Run number. A positive integer, possibly prefixed with zeros. Ex: '003' or '01'"
+        },
+        "TaskName05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 1,
+            "required": true,
+            "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
+        },
+        "TaskDescription05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 2,
+            "description": "Description of the task"
+        },
+        "Acquisition05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 3,
+            "description": "Details about the acquisition process."
+        },
+        "StartTime05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 4
+        },
+        "EventsSet05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 5,
+            "description": "Details about the events associated with this set."
+        },
+        "DataFilePath05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 6,
+            "description": "The path where the protocol's file is saved"
+        },
+        "RunComment05": {
+            "type": "text",
+            "value": "",
+            "group_id": 6,
+            "position": 7,
+            "description": "behavior of the subject, technical notes, interruptions etc."
+        }
+    }
+}
