@@ -13,7 +13,7 @@
             "value": "",
             "group_id": 5,
             "position": 0,
-            "description": "Run number. An integer, possibly prefixed with 0s. Ex: '003' or '01'"
+            "description": "Run number. A positive integer, possibly prefixed with zeros. Ex: '003' or '01'"
         },
         "TaskName04": {
             "type": "text",

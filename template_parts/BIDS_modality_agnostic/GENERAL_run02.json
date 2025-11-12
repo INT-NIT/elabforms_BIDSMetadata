@@ -1,69 +1,68 @@
 {
-  "elabftw": {
-    "display_main_text": true,
-    "extra_fields_groups": [
-      {
-        "id": 3,
-        "name": "GENERAL_RUN02"
-      }
-    ]
-  },
-  "extra_fields": {
-    "RunNumber02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 0,
-      "description": "Run number. An integer, possibly prefixed with 0s. Ex: '003' or '01'"
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 4,
+                "name": "GENERAL_RUN02"
+            }
+        ]
     },
-    "TaskName02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 1,
-      "required": true,
-      "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
-    },
-    "TaskDescription02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 2,
-      "description": "Description of the task"
-    },
-    "Acquisition02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 3,
-      "description": "Details about the acquisition process."
-    },
-    "StartTime02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 4
-    },
-    "EventsSet02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 5,
-      "description": "Details about the events associated with this set."
-    },
-    "DataFilePath02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 6,
-      "description": "The path where the protocol's file is saved"
-    },
-    "RunComment02": {
-      "type": "text",
-      "value": "",
-      "group_id": 3,
-      "position": 7,
-      "description": "behavior of the subject, technical notes, interruptions etc."
+    "extra_fields": {
+        "RunNumber02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 0,
+            "description": "Run number. A positive integer, possibly prefixed with zeros. Ex: '003' or '01'"
+        },
+        "TaskName02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 1,
+            "required": true,
+            "description": "Name of the task or condition. ONLY numbers, letters and +. Ex: 'rest' or 'headnodding' or 'with+stim'"
+        },
+        "TaskDescription02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 2,
+            "description": "Description of the task"
+        },
+        "Acquisition02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 3,
+            "description": "Details about the acquisition process."
+        },
+        "StartTime02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 4
+        },
+        "EventsSet02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 5,
+            "description": "Details about the events associated with this set."
+        },
+        "DataFilePath02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 6,
+            "description": "The path where the protocol's file is saved"
+        },
+        "RunComment02": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 7,
+            "description": "behavior of the subject, technical notes, interruptions etc."
+        }
     }
-  }
 }
