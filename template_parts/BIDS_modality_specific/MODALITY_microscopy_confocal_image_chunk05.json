@@ -1,0 +1,74 @@
+{
+  "elabftw": {
+    "extra_fields_groups": [
+      {
+        "id": 1,
+        "name": "MODALITY_confocal_microscopy_image_chunk05"
+      }
+    ]
+  },
+  "extra_fields": {
+    "chunk05_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 1,
+	"description": "When several images/chunks are acquired on the same sample, the identifier of this image.",
+      "blank_value_on_duplicate": true
+    },
+    "chunk05_Immersion": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 2,
+      "description": "Lens immersion medium.",
+      "blank_value_on_duplicate": false
+    },
+    "chunk05_NumericalAperture": {
+      "type": "number",
+      "value": "",
+      "group_id": 1,
+      "position": 3,
+      "description": "Lens numerical aperture (e.g. 1.4).",
+      "blank_value_on_duplicate": false
+    },
+    "chunk05_PixelSize": {
+      "type": "text",
+      "unit": "",
+      "units": [
+        "mm",
+        "um",
+        "nm"
+      ],
+      "value": "",
+      "group_id": 1,
+      "position": 4,
+      "description": "2- or 3-number array of the physical size of a pixel [X,Y,(Z)]. Unit to be specified on the right!",
+      "blank_value_on_duplicate": true
+    },
+    "chunk05_Magnification": {
+      "type": "number",
+      "value": "",
+      "group_id": 1,
+      "position": 5,
+      "description": "Lens magnification (e.g. 40).",
+      "blank_value_on_duplicate": true
+    },
+    "chunk05_ImageAcquisitionProtocol": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 6,
+      "description": "Description or URI of the image acquisition protocol.",
+      "blank_value_on_duplicate": true
+    },
+    "chunk05_datafile_path": {
+      "type": "text",
+      "value": "",
+      "description": "Location of the corresponding data file(s)",
+      "group_id": 1,
+      "position": 7,
+      "blank_value_on_duplicate": true
+    }
+  }
+}
