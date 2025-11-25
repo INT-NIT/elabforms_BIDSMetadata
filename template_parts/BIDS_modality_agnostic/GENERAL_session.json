@@ -18,7 +18,7 @@
         },
         "Session duration": {
             "type": "number",
-            "value": "91",
+            "value": "",
             "group_id": 3,
             "position": "3",
             "description": "The duration of the session [in minutes]",
